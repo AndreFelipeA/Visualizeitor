@@ -1,0 +1,76 @@
+body{
+    background-color: rgb(41, 37, 32);
+    color:aliceblue;
+
+}
+#corpo{
+    display: flex;
+    justify-content: center;
+}
+table{
+    float: left;
+    clear: both;
+}
+table,th,td {
+    border : 1px solid white;
+    border-collapse: collapse;
+}
+th,td {
+    padding: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+    text-align: center;
+}
+#alunos{
+    float: left;
+}
+.Aprovado{
+    background-color: rgb(13, 149, 77);
+    color: black;
+}
+.Reprovado, .ReprFreq, .RepSN{
+    background-color: red;
+}
+.Matricula{
+    background-color: blue;
+}
+.Equivale{
+    background-color: yellow;
+    color: black;
+}
+.nao-cursou, .TrTotal{
+    background-color: whitesmoke;
+    color: black;
+}
+
+#historico{
+    clear: both;
+    margin-left: 5%;
+    width: 90%;
+    margin-top: 30px;
+    background-color: black;
+    color: white;
+    padding: 0 10px;
+
+}
+
+#historico h1, #historico p{
+    margin: 10px;
+    font-size: 20px;
+
+}
+
+#menu {
+    display:flex !important;
+    justify-content: center;
+    align-items: center;
+}
+
+#inputs {
+    display:flex !important;
+    justify-content: center;
+    align-items: center;  
+}
+.aluno {
+    padding-right: 10px;
+}
